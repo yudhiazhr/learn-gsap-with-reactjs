@@ -5,8 +5,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      perspective: {
+        '100': '100px',
+        '200': '200px',
+        '300': '300px',
+        '400': '400px',
+        '500': '500px',
+      },
+      fontFamily: {
+        Righteous: ['Righteous', "sans-serif"]
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
 
